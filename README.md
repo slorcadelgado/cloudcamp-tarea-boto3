@@ -2,7 +2,7 @@
 
 - **Instalar AWS cli**
 - **Instalar jq y curl en el sistema operativo**
-- **Con el siguiente comando como base: aws ec2 describe-security-groups |jq .SecurityGroups[].GroupId**
+- **Con el siguiente comando como base:** `aws ec2 describe-security-groups |jq .SecurityGroups[].GroupId`
 - **Hacer la averiguación de lo que hace el comando (explicarlo y subir un readme en el repositorio)**
 - **Escribir un archivo python que realice la misma funcion**
 
