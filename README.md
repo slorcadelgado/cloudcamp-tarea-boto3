@@ -1,10 +1,10 @@
 # cloudcamp-tarea-boto3
 
-**- Instalar AWS cli**
-**- Instalar jq y curl en el sistema operativo**
-**- Con el siguiente comando como base: aws ec2 describe-security-groups |jq .SecurityGroups[].GroupId**
-**- Hacer la averiguación de lo que hace el comando (explicarlo y subir un readme en el repositorio)**
-**- Escribir un archivo python que realice la misma funcion**
+- **Instalar AWS cli**
+- **Instalar jq y curl en el sistema operativo**
+- **Con el siguiente comando como base: aws ec2 describe-security-groups |jq .SecurityGroups[].GroupId**
+- **Hacer la averiguación de lo que hace el comando (explicarlo y subir un readme en el repositorio)**
+- **Escribir un archivo python que realice la misma funcion**
 
 # Comando `aws ec2 describe-security-groups |jq .SecurityGroups[].GroupId`
 
@@ -16,6 +16,6 @@
 
 # ¿Cómo ejecutar el programa?
 
-**1. Crear venv:** `python3 -m venv .venv`
-**2. Instalar dependencias:** `.venv/bin/pip install -r requirements.txt`
-**3. Ejecutar el programa:** `.venv/bin/python3 sg.py`
+1. **Crear venv:** `python3 -m venv .venv`
+2. **Instalar dependencias:** `.venv/bin/pip install -r requirements.txt`
+3. **Ejecutar el programa:** `.venv/bin/python3 sg.py`
